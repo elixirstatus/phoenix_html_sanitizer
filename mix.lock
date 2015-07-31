@@ -1,0 +1,4 @@
+%{"html_sanitize_ex": {:hex, :html_sanitize_ex, "0.2.1"},
+  "mochiweb": {:hex, :mochiweb, "2.12.2"},
+  "phoenix_html": {:hex, :phoenix_html, "1.4.0"},
+  "plug": {:hex, :plug, "0.14.0"}}
