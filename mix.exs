@@ -2,12 +2,22 @@ defmodule PhoenixHtmlSanitizer.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :phoenix_html_sanitizer,
-     version: "0.0.1",
-     elixir: "~> 1.0",
-     build_embedded: Mix.env == :prod,
-     start_permanent: Mix.env == :prod,
-     deps: deps]
+    [
+      app: :phoenix_html_sanitizer,
+      version: "0.1.0",
+      description: "HTML sanitizer for Phoenix",
+      source_url: "https://github.com/elixirstatus/phoenix_html_sanitizer",
+      package: [
+        contributors: ["René Föhring"],
+        licenses: ["MIT"],
+        links: %{
+         "GitHub" => "https://github.com/elixirstatus/phoenix_html_sanitizer",
+        }
+      ],
+      build_embedded: Mix.env == :prod,
+      start_permanent: Mix.env == :prod,
+      deps: deps
+    ]
   end
 
   # Configuration for the OTP application
