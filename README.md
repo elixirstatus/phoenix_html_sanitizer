@@ -1,4 +1,4 @@
-# Phoenix HTML Sanitizer
+# Phoenix HTML Sanitizer [![Inline docs](http://inch-ci.org/github/elixirstatus/phoenix_html_sanitizer.svg)](http://inch-ci.org/github/elixirstatus/phoenix_html_sanitizer)
 
 `phoenix_html_sanitizer` provides a simple way to sanitize user input in your Phoenix app.
 

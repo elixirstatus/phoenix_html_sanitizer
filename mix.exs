@@ -38,8 +38,9 @@ defmodule PhoenixHtmlSanitizer.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:phoenix_html, "~> 1.1"},
-      {:html_sanitize_ex, "~> 0.2.1"}
+      {:phoenix_html, "~> 2.0"},
+      {:html_sanitize_ex, "~> 0.2.1"},
+      {:inch_ex, only: :docs}
     ]
   end
 end
