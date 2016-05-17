@@ -24,7 +24,7 @@ defmodule PhoenixHtmlSanitizer.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [applications: [:logger]]
+    [applications: [:logger, :html_sanitize_ex]]
   end
 
   # Dependencies can be Hex packages:
@@ -40,7 +40,7 @@ defmodule PhoenixHtmlSanitizer.Mixfile do
     [
       {:phoenix_html, "~> 2.0"},
       {:html_sanitize_ex, "~> 0.3"},
-      {:inch_ex, only: :docs}
+      {:inch_ex, ">= 0.0.0", only: :docs}
     ]
   end
 end
