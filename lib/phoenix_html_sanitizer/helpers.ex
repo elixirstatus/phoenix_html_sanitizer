@@ -1,4 +1,4 @@
-defmodule Phoenix.HtmlSanitizer.Helpers do
+defmodule PhoenixHtmlSanitizer.Helpers do
   @moduledoc """
   Helpers related to sanitizing user input that may contain HTML elements.
   """

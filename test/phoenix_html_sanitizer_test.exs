@@ -1,7 +1,7 @@
 defmodule PhoenixHtmlSanitizerViewTest do
   use ExUnit.Case
 
-  use Phoenix.HtmlSanitizer, :basic_html
+  use PhoenixHtmlSanitizer, :basic_html
 
   test "raw text" do
     assert sanitize("test!") == {:safe, "test!"}
