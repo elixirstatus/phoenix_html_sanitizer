@@ -38,7 +38,7 @@ file:
 
         # Use all HTML functionality (forms, tags, etc)
         use Phoenix.HTML
-        use Phoenix.HTML.Sanitizer, :basic_html         <-------- add this line
+        use Phoenix.HtmlSanitizer, :basic_html         <-------- add this line
       end
     end
 ```
@@ -49,7 +49,7 @@ You have to set one of three base modes here:
 * `:basic_html` - some basic HTML tags are allowed. This is great for allowing basic usages of HTML for sites like online forums and it works great in combination with a Markdown parser.
 * `:full_html` - all HTML5 tags are allowed and sanitized.
 
-After you included `Phoenix.HTML.Sanitizer` into your `web.ex`, it will provide
+After you included `Phoenix.HtmlSanitizer` into your `web.ex`, it will provide
 two functions in your views:
 
 * `sanitize/1` uses the defined base mode,
