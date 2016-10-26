@@ -1,4 +1,4 @@
-%{"html_sanitize_ex": {:hex, :html_sanitize_ex, "1.0.0", "d10dd14ae9e25fdf6c091ba8da90ba7bcad2650f2dae1b0ebfad64142f715803", [:mix], [{:mochiweb, "~> 2.12.2", [hex: :mochiweb, optional: false]}]},
+%{"html_sanitize_ex": {:hex, :html_sanitize_ex, "1.1.0-rc1", "db6ab27cae49ac5a0210d1a9565d8e0eb0587a83ff14c23e5740507b4a3aee9a", [:mix], [{:mochiweb, "~> 2.12.2", [hex: :mochiweb, optional: false]}]},
   "inch_ex": {:hex, :inch_ex, "0.3.3", "f53770404bb38385acbadd518ed571ba54d9608148ce7e7180e5826460b32f52", [:mix], [{:poison, "~> 1.2", [hex: :poison, optional: false]}]},
   "mochiweb": {:hex, :mochiweb, "2.12.2", "80804ad342afa3d7f3524040d4eed66ce74b17a555de454ac85b07c479928e46", [:make, :rebar], []},
   "phoenix_html": {:hex, :phoenix_html, "2.1.0", "75d0648a2aa8376b4801f608e87cd4e74bbb9c7e829dfe39648f99c68082af9d", [:mix], [{:plug, "~> 0.13 or ~> 1.0", [hex: :plug, optional: false]}]},
