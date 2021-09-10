@@ -41,7 +41,7 @@ defmodule PhoenixHtmlSanitizer.Mixfile do
   defp deps do
     [
       {:phoenix_html, "~> 3.0"},
-      {:html_sanitize_ex, "~> 1.1.0-rc1"},
+      {:html_sanitize_ex, github: "rrrene/html_sanitize_ex"},
       {:inch_ex, ">= 0.0.0", only: :docs}
     ]
   end
