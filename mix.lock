@@ -1,6 +1,8 @@
-%{"html_sanitize_ex": {:hex, :html_sanitize_ex, "1.1.0-rc1", "db6ab27cae49ac5a0210d1a9565d8e0eb0587a83ff14c23e5740507b4a3aee9a", [:mix], [{:mochiweb, "~> 2.12.2", [hex: :mochiweb, optional: false]}]},
-  "inch_ex": {:hex, :inch_ex, "0.3.3", "f53770404bb38385acbadd518ed571ba54d9608148ce7e7180e5826460b32f52", [:mix], [{:poison, "~> 1.2", [hex: :poison, optional: false]}]},
-  "mochiweb": {:hex, :mochiweb, "2.12.2", "80804ad342afa3d7f3524040d4eed66ce74b17a555de454ac85b07c479928e46", [:make, :rebar], []},
-  "phoenix_html": {:hex, :phoenix_html, "2.1.0", "75d0648a2aa8376b4801f608e87cd4e74bbb9c7e829dfe39648f99c68082af9d", [:mix], [{:plug, "~> 0.13 or ~> 1.0", [hex: :plug, optional: false]}]},
-  "plug": {:hex, :plug, "0.14.0", "4b4e26c3af8cb50e468f9eaa39566796447c92a7ec417a025b819302ff948283", [:mix], [{:cowboy, "~> 1.0", [hex: :cowboy, optional: true]}]},
-  "poison": {:hex, :poison, "1.4.0", "cd5afb9db7f0d19487572fa28185b6d4de647f14235746824e77b3139b79b725", [:mix], []}}
+%{
+  "html_sanitize_ex": {:hex, :html_sanitize_ex, "1.3.0", "f005ad692b717691203f940c686208aa3d8ffd9dd4bb3699240096a51fa9564e", [:mix], [{:mochiweb, "~> 2.15", [hex: :mochiweb, repo: "hexpm", optional: false]}], "hexpm", "abfb393ad888d57700f4d0f119c2643c8a9d98856f9b8a92001be7efad1419d6"},
+  "inch_ex": {:hex, :inch_ex, "0.3.3", "f53770404bb38385acbadd518ed571ba54d9608148ce7e7180e5826460b32f52", [:mix], [{:poison, "~> 1.2", [hex: :poison, repo: "hexpm", optional: false]}], "hexpm", "5136fa229c21a258e5ac99d63fb3a5114833fb51aa728f510d6c15bc534d4c1f"},
+  "mochiweb": {:hex, :mochiweb, "2.22.0", "f104d6747c01a330c38613561977e565b788b9170055c5241ac9dd6e4617cba5", [:rebar3], [], "hexpm", "cbbd1fd315d283c576d1c8a13e0738f6dafb63dc840611249608697502a07655"},
+  "phoenix_html": {:hex, :phoenix_html, "2.1.0", "75d0648a2aa8376b4801f608e87cd4e74bbb9c7e829dfe39648f99c68082af9d", [:mix], [{:plug, "~> 0.13 or ~> 1.0", [hex: :plug, repo: "hexpm", optional: false]}], "hexpm", "60082b26d3d0e47d439fde219c968fc0b01f6b497f9bcbaffaf9adc8c2450a10"},
+  "plug": {:hex, :plug, "0.14.0", "4b4e26c3af8cb50e468f9eaa39566796447c92a7ec417a025b819302ff948283", [:mix], [{:cowboy, "~> 1.0", [hex: :cowboy, repo: "hexpm", optional: true]}], "hexpm", "bacee77168bce635d959d8c41e0723936fba41170edf11665deaf30ee668303d"},
+  "poison": {:hex, :poison, "1.4.0", "cd5afb9db7f0d19487572fa28185b6d4de647f14235746824e77b3139b79b725", [:mix], [], "hexpm", "b2715aaeb9f549f4e30739d43993e3c1b1053a4ed69d50c660621bdd1eb96606"},
+}
