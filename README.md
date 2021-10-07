@@ -19,7 +19,7 @@ Add phoenix_html_sanitizer as a dependency in your `mix.exs` file.
 defp deps do
   [
     # ...
-    {:phoenix_html_sanitizer, "~> 1.0.0"}
+    {:phoenix_html_sanitizer, "~> 1.1"}
   ]
 end
 ```
