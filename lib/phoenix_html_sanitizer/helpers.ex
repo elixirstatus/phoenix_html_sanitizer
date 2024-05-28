@@ -7,26 +7,26 @@ defmodule PhoenixHtmlSanitizer.Helpers do
 
   def sanitize(text, :basic_html) do
     text
-    |> HtmlSanitizeEx.basic_html
-    |> Phoenix.HTML.raw
+    |> HtmlSanitizeEx.basic_html()
+    |> Phoenix.HTML.raw()
   end
 
   def sanitize(text, :markdown_html) do
     text
-    |> HtmlSanitizeEx.markdown_html
-    |> Phoenix.HTML.raw
+    |> HtmlSanitizeEx.markdown_html()
+    |> Phoenix.HTML.raw()
   end
 
   def sanitize(text, :full_html) do
     text
-    |> HtmlSanitizeEx.html5
-    |> Phoenix.HTML.raw
+    |> HtmlSanitizeEx.html5()
+    |> Phoenix.HTML.raw()
   end
 
   def sanitize(text, :strip_tags) do
     text
-    |> HtmlSanitizeEx.strip_tags
-    |> Phoenix.HTML.raw
+    |> HtmlSanitizeEx.strip_tags()
+    |> Phoenix.HTML.raw()
   end
 
   def strip_tags(text), do: sanitize(text, :strip_tags)
