@@ -5,7 +5,7 @@ defmodule PhoenixHtmlSanitizer.Mixfile do
     [
       app: :phoenix_html_sanitizer,
       version: "1.1.1",
-      elixir: "~> 1.0",
+      elixir: "~> 1.15",
       description: "HTML sanitizer for Phoenix",
       source_url: "https://github.com/elixirstatus/phoenix_html_sanitizer",
       package: [
@@ -25,7 +25,7 @@ defmodule PhoenixHtmlSanitizer.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [applications: [:logger, :html_sanitize_ex]]
+    [extra_applications: [:logger, :html_sanitize_ex]]
   end
 
   # Dependencies can be Hex packages:
