@@ -4,7 +4,7 @@ defmodule PhoenixHtmlSanitizer.Mixfile do
   def project do
     [
       app: :phoenix_html_sanitizer,
-      version: "1.1.1",
+      version: "1.2.0",
       elixir: "~> 1.15",
       description: "HTML sanitizer for Phoenix",
       source_url: "https://github.com/elixirstatus/phoenix_html_sanitizer",
