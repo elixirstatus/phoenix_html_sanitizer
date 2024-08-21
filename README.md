@@ -37,7 +37,9 @@ file:
         [snip]
 
         # Use all HTML functionality (forms, tags, etc)
-        use Phoenix.HTML
+        import Phoenix.HTML
+        import Phoenix.HTML.Form
+        use PhoenixHTMLHelpers
         use PhoenixHtmlSanitizer, :basic_html         <-------- add this line
       end
     end
